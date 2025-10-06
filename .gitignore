@@ -1,0 +1,50 @@
+# MAVEN
+target/
+*.jar
+*.war
+
+# JAVA
+*.class
+*.log
+
+# IDE FILES
+.idea/
+*.iml
+*.ipr
+.vscode/
+
+# MAC/WINDOWS
+.DS_Store
+._*
+Thumbs.db
+
+# EXCLUDE ICONS & FAVICONS
+*.ico
+favicon.ico
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+/assets/icons/
+/images/
+/icons/
+
+# UNNECESSARY FOLDERS
+node_modules/
+dist/
+build/
+.gradle/
+*.tmp
+*.temp
+.cache/
+
+# BACKUP FILES
+*.backup
+*.bak
+*.orig
+*~
+
+# LOGS
+logs/
+*.log.*
