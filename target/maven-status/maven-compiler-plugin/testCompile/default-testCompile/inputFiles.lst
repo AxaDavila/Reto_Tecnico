@@ -1,0 +1,10 @@
+/Users/axadavila/Downloads/jquery-datepicker-automation_20251005_104754/src/test/java/com/sqa/datepicker/tasks/SelectDateFromCalendar.java
+/Users/axadavila/Downloads/jquery-datepicker-automation_20251005_104754/src/test/java/com/sqa/datepicker/interactions/SwitchToDatepickerFrame.java
+/Users/axadavila/Downloads/jquery-datepicker-automation_20251005_104754/src/test/java/com/sqa/datepicker/tasks/NavigateToDatepicker.java
+/Users/axadavila/Downloads/jquery-datepicker-automation_20251005_104754/src/test/java/com/sqa/datepicker/questions/SelectedDate.java
+/Users/axadavila/Downloads/jquery-datepicker-automation_20251005_104754/src/test/java/com/sqa/datepicker/questions/FieldEditability.java
+/Users/axadavila/Downloads/jquery-datepicker-automation_20251005_104754/src/test/java/com/sqa/datepicker/ui/DatepickerPage.java
+/Users/axadavila/Downloads/jquery-datepicker-automation_20251005_104754/src/test/java/com/sqa/datepicker/stepdefinitions/DatepickerStepDefinitions.java
+/Users/axadavila/Downloads/jquery-datepicker-automation_20251005_104754/src/test/java/com/sqa/datepicker/interactions/WaitForCalendar.java
+/Users/axadavila/Downloads/jquery-datepicker-automation_20251005_104754/src/test/java/com/sqa/datepicker/runners/DatepickerTestRunner.java
+/Users/axadavila/Downloads/jquery-datepicker-automation_20251005_104754/src/test/java/com/sqa/datepicker/tasks/AttemptManualDateInput.java

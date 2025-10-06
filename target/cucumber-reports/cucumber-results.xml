@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="10.645">
+<testcase classname="Automatización del componente jQuery Datepicker" name="Reserva de una cita seleccionando una fecha en el calendario" time="4.882">
+<system-out><![CDATA[Dado que el usuario navega a la página principal de jQuery Datepicker.......passed
+Cuando el usuario hace clic en el campo de selección de fecha...............passed
+Y selecciona el día 15 del mes actual.......................................passed
+Entonces la fecha seleccionada debe aparecer en el campo de texto...........passed
+]]></system-out>
+</testcase>
+<testcase classname="Automatización del componente jQuery Datepicker" name="Selección de una fecha específica en un mes diferente" time="3.152">
+<system-out><![CDATA[Dado que el usuario navega a la página principal de jQuery Datepicker.......passed
+Cuando el usuario hace clic en el campo de selección de fecha...............passed
+Y navega hasta el próximo mes...............................................passed
+Y selecciona el día 10 del próximo mes......................................passed
+Entonces la fecha seleccionada debe aparecer en el campo de texto...........passed
+]]></system-out>
+</testcase>
+<testcase classname="Automatización del componente jQuery Datepicker" name="Validación de campo bloqueado" time="2.383">
+<system-out><![CDATA[Dado que el usuario navega a la página principal de jQuery Datepicker.......passed
+Cuando el usuario intenta ingresar una fecha manualmente en el campo de texto.passed
+Entonces el campo no debe permitir la edición manual........................passed
+Y solo debe ser posible seleccionar una fecha desde el calendario...........passed
+]]></system-out>
+</testcase>
+</testsuite>
