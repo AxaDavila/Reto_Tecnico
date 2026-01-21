@@ -233,19 +233,18 @@ serenity.timeout=30000
 
 text
 
-## 🤝 Contribución
+## Contribución
 
-Requerimiento        |  Tu Proyecto                     
----------------------+----------------------------------
- Serenity BDD        |   configurado     
- Cucumber            |   escenarios implementados    
- Screenplay Pattern  |   Tasks, Interactions, Questions
- Buenas prácticas    |   Implementadas y documentadas  
----------------+---------------------------------
-Funcionalidad  ||  Escenarios funcionando 
-Manejo iframe  ||  Implementado para jQuery 
-Screenshots    ||  Configurado y funcionando
-Reportes       ||  Serenity completo        
+Requerimiento:
+ Serenity BDD = configurado     
+ Cucumber =  escenarios implementados    
+ Screenplay Pattern = Tasks, Interactions, Questions
+ Buenas prácticas = Implementadas y documentadas  
+---------------------------------------------=-
+Funcionalidad = Escenarios funcionando 
+Manejo iframe = Implementado para jQuery 
+Screenshots = Configurado y funcionando
+Reportes = Serenity completo        
 
 
 
