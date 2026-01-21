@@ -25,22 +25,24 @@ El proyecto sigue el patrón **Screenplay** de Serenity BDD, que proporciona:
 
      ### Estructura del Proyecto
      
-     jquery-datepicker-automation/
-     ├── src/
-     │ └── test/
-     │ ├── java/com/sqa/datepicker/
-     │ │ ├── runners/ # Test Runners
-     │ │ ├── stepdefinitions/ # Cucumber Step Definitions
-     │ │ ├── tasks/ # Tareas de alto nivel
-     │ │ ├── interactions/ # Interacciones reutilizables
-     │ │ ├── questions/ # Preguntas/Validaciones
-     │ │ └── ui/ # Page Objects/Targets
-     │ └── resources/
-     │ ├── features/ # Archivos .feature de Cucumber
-     │ └── serenity.properties # Configuración Serenity
-     ├── pom.xml # Configuración Maven
-     └── README.md
-
+jquery-datepicker-automation/
+├── src/
+│ └── test/
+│ ├── java/
+│ │ └── com/
+│ │ └── sqa/
+│ │ └── datepicker/
+│ │ ├── runners/ # Test Runners
+│ │ ├── stepdefinitions/ # Cucumber Step Definitions
+│ │ ├── tasks/ # Tareas de alto nivel
+│ │ ├── interactions/ # Interacciones reutilizables
+│ │ ├── questions/ # Preguntas / Validaciones
+│ │ └── ui/ # Page Objects / Targets
+│ └── resources/
+│ ├── features/ # Archivos .feature de Cucumber
+│ └── serenity.properties # Configuración Serenity
+├── pom.xml # Configuración Maven
+└── README.md
 
 ##  Tecnologías
 
