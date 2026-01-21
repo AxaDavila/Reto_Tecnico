@@ -16,7 +16,7 @@ Automatizar tres escenarios de prueba del jQuery UI Datepicker:
 2. Selección de fecha en el próximo mes  
 3. Validación de entrada manual
 
-## ��️ Arquitectura
+## Arquitectura
 
 El proyecto sigue el patrón **Screenplay** de Serenity BDD, que proporciona:
 - **Mejor legibilidad**: Los tests se leen como historias de usuario
@@ -26,26 +26,25 @@ El proyecto sigue el patrón **Screenplay** de Serenity BDD, que proporciona:
 ### Estructura del Proyecto
 
 jquery-datepicker-automation/
-├── src/
-│ └── test/
-│ ├── java/
-│ │ └── com/
-│ │ └── sqa/
-│ │ └── datepicker/
-│ │ ├── runners/ # Test Runners
-│ │ ├── stepdefinitions/ # Cucumber Step Definitions
-│ │ ├── tasks/ # Tareas de alto nivel
-│ │ ├── interactions/ # Interacciones reutilizables
-│ │ ├── questions/ # Preguntas / Validaciones
-│ │ └── ui/ # Page Objects / Targets
-│ └── resources/
-│ ├── features/ # Archivos .feature de Cucumber
-│ └── serenity.properties # Configuración Serenity
-├── pom.xml # Configuración Maven
-└── README.md
+|-- src/
+|   |-- test/
+|   |   |-- java/
+|   |   |   |-- com/
+|   |   |   |   |-- sqa/
+|   |   |   |   |   |-- datepicker/
+|   |   |   |   |   |   |-- runners/           # Test Runners
+|   |   |   |   |   |   |-- stepdefinitions/   # Cucumber 
+|   |   |   |   |   |   |-- tasks/             # alto nivel
+|   |   |   |   |   |   |-- interactions/      # reutilizables
+|   |   |   |   |   |   |-- questions/         # Preguntas / Validaciones
+|   |   |   |   |   |   |-- ui/                # Page Objects / Targets
+|   |   |-- resources/
+|   |   |   |-- features/                      # Archivos .feature de Cucumber
+|   |   |   |-- serenity.properties            # Configuración Serenity
+|-- pom.xml                                    # Configuración Maven
+|-- README.md
 
 
-### Tecnologías
 
 ##  Tecnologías
 
