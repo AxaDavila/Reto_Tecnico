@@ -24,6 +24,7 @@ El proyecto sigue el patrón **Screenplay** de Serenity BDD, que proporciona:
 - **Reutilización**: Componentes altamente reutilizables
 
 ### Estructura del Proyecto
+
 jquery-datepicker-automation/
 ├── src/
 │ └── test/
