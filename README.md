@@ -9,7 +9,7 @@
 
 ---
 
-## 🎯 Objetivo
+##  Objetivo
 
 Automatizar tres escenarios de prueba del jQuery UI Datepicker:
 1. Selección de fecha en el mes actual
@@ -41,7 +41,7 @@ jquery-datepicker-automation/
 └── README.md
 
 
-## 🛠️ Tecnologías
+##  Tecnologías
 
 - **Java 11**
 - **Serenity BDD 3.3.0** - Framework de automatización y reporting
@@ -51,14 +51,14 @@ jquery-datepicker-automation/
 - **Selenium WebDriver** - Automatización web
 - **WebDriverManager** - Gestión automática de drivers
 
-## 📋 Prerrequisitos
+## Prerrequisitos
 
 - Java JDK 11 o superior
 - Maven 3.6 o superior
 - Google Chrome (última versión)
 - ChromeDriver (se descarga automáticamente)
 
-## 🚀 Instalación
+## Instalación
 
 1. Clonar o descargar el proyecto
 2. Navegar al directorio del proyecto:
@@ -71,7 +71,7 @@ mvn clean compile
 
 text
 
-## ▶️ Ejecución
+## Ejecución
 
 ### Ejecutar todos los tests:
 mvn clean verify
@@ -100,7 +100,7 @@ mvn clean verify -Dheadless.mode=true
 
 text
 
-## 📊 Reportes
+## Reportes
 
 Después de la ejecución, Serenity genera reportes detallados:
 
@@ -108,23 +108,17 @@ Después de la ejecución, Serenity genera reportes detallados:
 El reporte se genera automáticamente en:
 target/site/serenity/index.html
 
-Abrir en el navegador (Mac):
-open target/site/serenity/index.html
-
-Abrir en el navegador (Linux):
-xdg-open target/site/serenity/index.html
-
 Abrir en el navegador (Windows):
 start target/site/serenity/index.html
 
 text
 
 Los reportes incluyen:
-- ✅ Resultados de cada escenario
-- 📸 Screenshots en caso de fallos
-- 📝 Pasos detallados de cada test
-- 📊 Estadísticas y métricas
-- 🎬 Timeline de ejecución
+- Resultados de cada escenario
+- Screenshots en caso de fallos
+- Pasos detallados de cada test
+- Estadísticas y métricas
+- Timeline de ejecución
 
 ## 🧪 Escenarios de Prueba
 
@@ -148,7 +142,7 @@ Los reportes incluyen:
 - Intenta ingresar una fecha manualmente
 - Valida que el calendario es la forma principal de selección
 
-## 🎭 Patrón Screenplay
+## Patrón Screenplay
 
 El proyecto implementa el patrón Screenplay con los siguientes componentes:
 
@@ -176,20 +170,20 @@ Elementos de la UI (Page Objects):
 - `DatepickerPage.DATE_INPUT_FIELD`
 - `DatepickerPage.CALENDAR_WIDGET`
 
-## 📝 Buenas Prácticas Implementadas
+## Buenas Prácticas Implementadas
 
-✅ **Patrón Screenplay**: Código legible y mantenible  
-✅ **Separación de responsabilidades**: Cada clase tiene un propósito único  
-✅ **DRY (Don't Repeat Yourself)**: Componentes reutilizables  
-✅ **Nomenclatura clara**: Nombres descriptivos en español e inglés  
-✅ **Manejo de iframes**: Cambio de contexto adecuado  
-✅ **Esperas explícitas**: No uso de Thread.sleep excepto donde es necesario  
-✅ **Page Objects**: Localizadores centralizados  
-✅ **Reporting detallado**: Información completa en reportes Serenity  
-✅ **Configuración externalizada**: serenity.properties para configuraciones  
-✅ **Tags de Cucumber**: Organización y ejecución selectiva
+**Patrón Screenplay**: Código legible y mantenible  
+**Separación de responsabilidades**: Cada clase tiene un propósito único  
+**DRY (Don't Repeat Yourself)**: Componentes reutilizables  
+**Nomenclatura clara**: Nombres descriptivos en español e inglés  
+**Manejo de iframes**: Cambio de contexto adecuado  
+**Esperas explícitas**: No uso de Thread.sleep excepto donde es necesario  
+**Page Objects**: Localizadores centralizados  
+**Reporting detallado**: Información completa en reportes Serenity  
+**Configuración externalizada**: serenity.properties para configuraciones  
+**Tags de Cucumber**: Organización y ejecución selectiva
 
-## 🔧 Configuración
+## Configuración
 
 ### serenity.properties
 Contiene la configuración de Serenity y WebDriver:
@@ -198,7 +192,7 @@ Contiene la configuración de Serenity y WebDriver:
 - Configuración del navegador
 - Configuración de reportes
 
-## 📈 Resultados Esperados
+## Resultados Esperados
 
 ### Ejecución Exitosa:
 [INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
@@ -208,29 +202,27 @@ Contiene la configuración de Serenity y WebDriver:
 text
 
 ### Artefactos Generados:
-- ✅ **Reporte HTML** con navegación interactiva
-- ✅ **Screenshots** automáticos de cada paso
-- ✅ **Logs detallados** de ejecución
-- ✅ **Métricas** de tiempo y rendimiento
-
-## 🐛 Troubleshooting
+-  **Reporte HTML** con navegación interactiva
+-  **Screenshots** automáticos de cada paso
+-  **Logs detallados** de ejecución
+-  **Métricas** de tiempo y rendimiento
 
 ### Problemas Comunes:
 
-**❌ ChromeDriver version mismatch:**
+** ChromeDriver version mismatch:**
 Solución: Limpiar cache de WebDriverManager
 rm -rf ~/.cache/selenium
 mvn clean verify
 
 text
 
-**❌ Elemento no encontrado:**
+** Elemento no encontrado:**
 Solución: Ejecutar en modo no-headless para debug
 mvn verify -Dheadless.mode=false
 
 text
 
-**❌ Timeout en carga de página:**
+** Timeout en carga de página:**
 Solución: Aumentar timeouts en serenity.properties
 serenity.timeout=30000
 
@@ -238,24 +230,19 @@ text
 
 ## 🤝 Contribución
 
-Requerimiento SQA     |  Tu Proyecto                     
-----------------------+----------------------------------
-✅ Serenity BDD        |  ✅ Completamente configurado     
-✅ Cucumber            |  ✅ 3 escenarios implementados    
-✅ Screenplay Pattern  |  ✅ Tasks, Interactions, Questions
-✅ Buenas prácticas    |  ✅ Implementadas y documentadas  
-
-Aspecto        |  Template SQA       |  Tu Proyecto Actual         
----------------+---------------------+-----------------------------
-Funcionalidad  |  ❌ Solo estructura  |  ✅ 3 escenarios funcionando 
-Correcciones   |  ❌ No tiene         |  ✅ Localizadores corregidos 
-Manejo iframe  |  ❌ No tiene         |  ✅ Implementado para jQuery 
-Screenshots    |  ❌ Básico           |  ✅ Configurado y funcionando
-Reportes       |  ❌ Básico           |  ✅ Serenity completo        
+Requerimiento        |  Tu Proyecto                     
+---------------------+----------------------------------
+ Serenity BDD        |   configurado     
+ Cucumber            |   escenarios implementados    
+ Screenplay Pattern  |   Tasks, Interactions, Questions
+ Buenas prácticas    |   Implementadas y documentadas  
+---------------+---------------------------------
+Funcionalidad  ||  Escenarios funcionando 
+Manejo iframe  ||  Implementado para jQuery 
+Screenshots    ||  Configurado y funcionando
+Reportes       ||  Serenity completo        
 
 
-
-## 📞 Contacto
 
 **Proyecto:** jQuery Datepicker Test Automation  
 **Desarrollado por:** Diana Alexandra Dávila
@@ -265,5 +252,5 @@ Reportes       |  ❌ Básico           |  ✅ Serenity completo
 
 ---
 
-**🏆 Proyecto desarrollado siguiendo las mejores prácticas de automatización de pruebas y BDD.**
+** Proyecto desarrollado siguiendo las mejores prácticas de automatización de pruebas y BDD.**
 
