@@ -27,8 +27,11 @@ El proyecto sigue el patrón **Screenplay** de Serenity BDD, que proporciona:
 
 jquery-datepicker-automation/
 ├── src/
+
 │ └── test/
+
 │ ├── java/com/sqa/datepicker/
+
 │ │ ├── runners/ # Test Runners
 │ │ ├── stepdefinitions/ # Cucumber Step Definitions
 │ │ ├── tasks/ # Tareas de alto nivel
