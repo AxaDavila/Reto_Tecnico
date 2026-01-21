@@ -69,24 +69,24 @@ jquery-datepicker-automation/
 2. Navegar al directorio del proyecto:
 cd jquery-datepicker-automation_20251005_104754
 
-text
+
 
 3. Compilar el proyecto:
 mvn clean compile
 
-text
+
 
 ## Ejecución
 
 ### Ejecutar todos los tests:
 mvn clean verify
 
-text
+
 
 ### Ejecutar con interfaz gráfica:
 mvn clean verify -Dheadless.mode=false
 
-text
+
 
 ### Ejecutar tests por tags:
 Solo escenario 1
