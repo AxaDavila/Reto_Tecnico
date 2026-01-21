@@ -98,12 +98,12 @@ mvn clean verify -Dcucumber.filter.tags="@scenario2"
 Solo escenario 3
 mvn clean verify -Dcucumber.filter.tags="@scenario3"
 
-text
+
 
 ### Modo headless:
 mvn clean verify -Dheadless.mode=true
 
-text
+
 
 ## Reportes
 
@@ -116,7 +116,7 @@ target/site/serenity/index.html
 Abrir en el navegador (Windows):
 start target/site/serenity/index.html
 
-text
+
 
 Los reportes incluyen:
 - Resultados de cada escenario
@@ -204,7 +204,7 @@ Contiene la configuración de Serenity y WebDriver:
 [INFO] BUILD SUCCESS
 [INFO] Total time: 45.230 s
 
-text
+
 
 ### Artefactos Generados:
 -  **Reporte HTML** con navegación interactiva
@@ -219,28 +219,25 @@ Solución: Limpiar cache de WebDriverManager
 rm -rf ~/.cache/selenium
 mvn clean verify
 
-text
 
 ** Elemento no encontrado:**
 Solución: Ejecutar en modo no-headless para debug
 mvn verify -Dheadless.mode=false
 
-text
 
 ** Timeout en carga de página:**
 Solución: Aumentar timeouts en serenity.properties
 serenity.timeout=30000
 
-text
 
 ## Contribución
 
 Requerimiento:
- Serenity BDD = configurado     
- Cucumber =  escenarios implementados    
- Screenplay Pattern = Tasks, Interactions, Questions
- Buenas prácticas = Implementadas y documentadas  
----------------------------------------------=-
+
+Serenity BDD = configurado     
+Cucumber =  escenarios implementados    
+Screenplay Pattern = Tasks, Interactions, Questions
+Buenas prácticas = Implementadas y documentadas
 Funcionalidad = Escenarios funcionando 
 Manejo iframe = Implementado para jQuery 
 Screenshots = Configurado y funcionando
